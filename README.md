@@ -3,13 +3,29 @@
 We're going to be building a tic tac toe application using HTML, CSS, and
 Javascript. You've been provided with all of the necessary HTML and CSS.
 
+## Getting Started
+
+```no-highlight
+// Clone this repository
+git clone git@github.com:LaunchAcademy/tic_tac_toe.git
+
+// Move into the project directory
+cd tic_tac_toe
+
+// Open the index page
+open index.html
+```
+
+**Before you get started, open up `index.html` in your browser and see what
+we're starting with.**
+
 ## Choosing a Square
 
 ### Listening for Clicks on a Square
 
-The first thing that we need to do is add an event handler function that listens
-for click events on any of our squares. For now, we'll just create an alert that
-says which player clicked on the square.
+The first thing that we need to do is add an [event](https://learn.jquery.com/events/handling-events/)
+handler function that listens for click events on any of our squares. For now,
+we'll just create an alert that says which player clicked on the square.
 
 ```javascript
 // Within any element with class `.board`, listen for clicks on any element
