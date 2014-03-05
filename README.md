@@ -192,7 +192,7 @@ hash that contains all of the choices for each player in an array.
 
 ```javascript
 // Initialize a hash to store all of the chosen squares for each player
-var choices = {
+var chosenSquares = {
   'x': [],
   'o': []
 }
