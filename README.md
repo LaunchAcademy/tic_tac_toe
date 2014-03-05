@@ -281,7 +281,7 @@ required squares if their array of chosen squares contains extra squares.
 We handle this by assuming that they have all of the required squares at the
 beginning of each combination iteration, setting `hasAllSquares` to `true`. We
 then check for each of the combination's squares inside the
-`currentlyChosenSquares`, setting `hasAllSquares` to `false` if we find that
+`currentPlayerSquares`, setting `hasAllSquares` to `false` if we find that
 the current player doesn't have one of the combination's squares.
 
 If, after looking at all of the required squares for a particular combination,
